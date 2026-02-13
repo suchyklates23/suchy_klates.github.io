@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Strona</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            
+            /* Tło z obrazem LeBrona */
+            background: #000 url('lebron.jpg') no-repeat center center fixed;
+            background-size: cover;
+            
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+            font-size: 48px;
+        }
+
+        p {
+            margin-bottom: 30px;
+            color: #eee;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        a {
+            display: block;
+            width: 250px;
+            margin: 0 auto;
+            padding: 15px;
+            background: rgba(135, 135, 135, 0.35);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 0.3s;
+            backdrop-filter: blur(5px);
+        }
+
+        a:hover {
+            background: rgba(255,255,255,0.4);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sucho_klates</h1>
+    <p>Programista | Koszykarz | Projekty</p>
+
+    <div class="links">
+        <a href="https://www.instagram.com/koszystka_data" target="_blank">YouTube</a>
+        <a href="https://www.youtube.com/@koszystkaletv177" target="_blank">X (Twitter)</a>
+        <a href="https://www.tiktok.com/@koszystka_klatex" target="_blank">TikTok</a>
+        <a href="https://www.twitch.tv/jlecho_bierzesz1" target="_blank">Twitch</a>
+        <a href="https://kick.com/jlecho_bierzesz1" target="_blank">Kick</a>
+    </div>
+
+</body>
+</html>
