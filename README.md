@@ -1,1 +1,1 @@
-# suchy_klates.github.io
+# suchy-klates.github.io
